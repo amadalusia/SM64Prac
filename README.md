@@ -24,8 +24,7 @@ Next, follow the instructions listed below for your OS.
 4. Change the properties of the sm64.py script file so it can be executed
 5. Run the 'sm64.py' script
 
-Non-default libraries used on GitHub:
-
+## Additional Libraries Used
 - https://github.com/tartley/colorama
 - https://github.com/wong2/pick
 - https://github.com/joeyespo/py-getch

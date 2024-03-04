@@ -6,7 +6,7 @@
 Download the latest .exe from Releases, and then run it (Windows required).
 
 ## Getting Started - Advanced (.py)
-Otherwise, if you want to edit the script (e.g. fine tuning the weighting of the stars to your specific needs), or are using a different operating system, you can find the Python script itself within the provided .zip folder. I will provide steps below on how to run it this way from scratch.
+Otherwise, if you want to edit the script (e.g. fine tuning the weighting of the stars to your specific needs), or are using a different operating system, you can find the Python script itself in releases. I will provide steps below on how to run it this way from scratch.
 
 #### NOTE: This script doesn't work with Python 3.12+ (as of March 3rd 2024).
 Download the Python 3.11.6 version best suited for your OS here, if you don't currently have it installed: https://www.python.org/downloads/release/python-3116/

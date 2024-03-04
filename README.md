@@ -3,8 +3,7 @@
 ![SM64Prac](https://i.imgur.com/90A65mj.gif)
 
 ## Getting Started - Basic (.exe)
-Download the latest .exe from Releases, and then run it (Windows required).
-#### NOTE: This might get flagged by Chrome/Windows as a virus/trojan (false positive). I will soon be providing a version which should fix this by compiling pyinstaller stuff on my own manually.
+Download the latest .exe from Releases, and then run it (Windows required). If Windows SmartScreen shows a warning about untrusted software, this can be ignored.
 
 ## Getting Started - Advanced (.py)
 Otherwise, if you want to edit the script (e.g. fine tuning the weighting of the stars to your specific needs), or are using a different operating system, you can find the Python script itself in releases. I will provide steps below on how to run it this way from scratch.

@@ -5,7 +5,7 @@ import os
 #ctypes.windll.kernel32.SetConsoleTitleW("SM64 Practice Script")
 import random
 from getch import getch, pause
-from pick import pick
+from patchedpick import pick
 from colorama import init, Fore, Back, Style
 
 #Clears text on Windows/Linux/MacOS.

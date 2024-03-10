@@ -32,7 +32,7 @@ def _wrapper(func):
             curses.echo()
             curses.endwin()
     else:
-        curses.wrapper(func)
+        return curses.wrapper(func)
 
 class PatchedPicker(pick.Picker):
     def config_curses(self) -> None:

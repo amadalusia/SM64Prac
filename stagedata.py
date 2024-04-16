@@ -1,3 +1,4 @@
+json = """
 {
     "course-master-list": {
         "MISC - Lakitu Skip": 1,
@@ -3198,3 +3199,4 @@
         ]
     }
 }
+"""

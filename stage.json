@@ -2,7 +2,7 @@
     "course-master-list": {
         "MISC - Lakitu Skip": 1,
         "MISC - LBLJ": 5,
-        "BitDW - Stage": 6,       
+        "BitDW - Stage": 6,
         "BitDW - Red Coins": 8,
         "MISC - Bowser 1 Fight": 2,
         "WF - Chip off Whomp's Block [Star 1]": 4,
@@ -128,11 +128,10 @@
         "RR - Somewhere over the Rainbow + 100 Coins [Star 6+7]": 8,
         "BitS - Stage": 10,
         "BitS - Red Coins": 9,
-        "MISC - Bowser 3 Fight": 7     
+        "MISC - Bowser 3 Fight": 7
     },
-   
     "120 Star": {
-        "LBLJ, WDW100+Reds, THI100+Reds, RR No Carpetless":[
+        "LBLJ, WDW100+Reds, THI100+Reds, RR No Carpetless": [
             "MISC - Lakitu Skip",
             "MISC - LBLJ",
             "WF - Blast Away the Wall [Star 6]",
@@ -241,7 +240,7 @@
             "BitS - Red Coins",
             "MISC - Bowser 3 Fight"
         ],
-        "LBLJ, WDW100+Reds, THI100+Reds, RR Carpetless":[
+        "LBLJ, WDW100+Reds, THI100+Reds, RR Carpetless": [
             "MISC - Lakitu Skip",
             "MISC - LBLJ",
             "WF - Blast Away the Wall [Star 6]",
@@ -350,7 +349,7 @@
             "BitS - Red Coins",
             "MISC - Bowser 3 Fight"
         ],
-        "LBLJ, WDW100+Reds, THI100+Koopa, RR No Carpetless":[
+        "LBLJ, WDW100+Reds, THI100+Koopa, RR No Carpetless": [
             "MISC - Lakitu Skip",
             "MISC - LBLJ",
             "WF - Blast Away the Wall [Star 6]",
@@ -459,7 +458,7 @@
             "BitS - Red Coins",
             "MISC - Bowser 3 Fight"
         ],
-        "LBLJ, WDW100+Reds, THI100+Koopa, RR Carpetless":[
+        "LBLJ, WDW100+Reds, THI100+Koopa, RR Carpetless": [
             "MISC - Lakitu Skip",
             "MISC - LBLJ",
             "WF - Blast Away the Wall [Star 6]",
@@ -568,7 +567,7 @@
             "BitS - Red Coins",
             "MISC - Bowser 3 Fight"
         ],
-        "LBLJ, WDW100+Secrets, THI100+Reds, RR No Carpetless":[
+        "LBLJ, WDW100+Secrets, THI100+Reds, RR No Carpetless": [
             "MISC - Lakitu Skip",
             "MISC - LBLJ",
             "WF - Blast Away the Wall [Star 6]",
@@ -677,7 +676,7 @@
             "BitS - Red Coins",
             "MISC - Bowser 3 Fight"
         ],
-        "LBLJ, WDW100+Secrets, THI100+Reds, RR Carpetless":[
+        "LBLJ, WDW100+Secrets, THI100+Reds, RR Carpetless": [
             "MISC - Lakitu Skip",
             "MISC - LBLJ",
             "WF - Blast Away the Wall [Star 6]",
@@ -786,7 +785,7 @@
             "BitS - Red Coins",
             "MISC - Bowser 3 Fight"
         ],
-        "LBLJ, WDW100+Secrets, THI100+Koopa, RR No Carpetless":[
+        "LBLJ, WDW100+Secrets, THI100+Koopa, RR No Carpetless": [
             "MISC - Lakitu Skip",
             "MISC - LBLJ",
             "WF - Blast Away the Wall [Star 6]",
@@ -895,7 +894,7 @@
             "BitS - Red Coins",
             "MISC - Bowser 3 Fight"
         ],
-        "LBLJ, WDW100+Secrets, THI100+Koopa, RR Carpetless":[
+        "LBLJ, WDW100+Secrets, THI100+Koopa, RR Carpetless": [
             "MISC - Lakitu Skip",
             "MISC - LBLJ",
             "WF - Blast Away the Wall [Star 6]",
@@ -1004,7 +1003,7 @@
             "BitS - Red Coins",
             "MISC - Bowser 3 Fight"
         ],
-        "No LBLJ, WDW100+Reds, THI100+Reds, RR No Carpetless":[
+        "No LBLJ, WDW100+Reds, THI100+Reds, RR No Carpetless": [
             "MISC - Lakitu Skip",
             "BoB - Behind Chain Chomp's Gate [Star 6]",
             "WF - Blast Away the Wall [Star 6]",
@@ -1112,7 +1111,7 @@
             "BitS - Red Coins",
             "MISC - Bowser 3 Fight"
         ],
-        "No LBLJ, WDW100+Reds, THI100+Reds, RR Carpetless":[
+        "No LBLJ, WDW100+Reds, THI100+Reds, RR Carpetless": [
             "MISC - Lakitu Skip",
             "BoB - Behind Chain Chomp's Gate [Star 6]",
             "WF - Blast Away the Wall [Star 6]",
@@ -1220,7 +1219,7 @@
             "BitS - Red Coins",
             "MISC - Bowser 3 Fight"
         ],
-        "No LBLJ, WDW100+Reds, THI100+Koopa, RR No Carpetless":[
+        "No LBLJ, WDW100+Reds, THI100+Koopa, RR No Carpetless": [
             "MISC - Lakitu Skip",
             "BoB - Behind Chain Chomp's Gate [Star 6]",
             "WF - Blast Away the Wall [Star 6]",
@@ -1328,7 +1327,7 @@
             "BitS - Red Coins",
             "MISC - Bowser 3 Fight"
         ],
-        "No LBLJ, WDW100+Reds, THI100+Koopa, RR Carpetless":[
+        "No LBLJ, WDW100+Reds, THI100+Koopa, RR Carpetless": [
             "MISC - Lakitu Skip",
             "BoB - Behind Chain Chomp's Gate [Star 6]",
             "WF - Blast Away the Wall [Star 6]",
@@ -1436,7 +1435,7 @@
             "BitS - Red Coins",
             "MISC - Bowser 3 Fight"
         ],
-        "No LBLJ, WDW100+Secrets, THI100+Reds, RR No Carpetless":[
+        "No LBLJ, WDW100+Secrets, THI100+Reds, RR No Carpetless": [
             "MISC - Lakitu Skip",
             "BoB - Behind Chain Chomp's Gate [Star 6]",
             "WF - Blast Away the Wall [Star 6]",
@@ -1544,7 +1543,7 @@
             "BitS - Red Coins",
             "MISC - Bowser 3 Fight"
         ],
-        "No LBLJ, WDW100+Secrets, THI100+Reds, RR Carpetless":[
+        "No LBLJ, WDW100+Secrets, THI100+Reds, RR Carpetless": [
             "MISC - Lakitu Skip",
             "BoB - Behind Chain Chomp's Gate [Star 6]",
             "WF - Blast Away the Wall [Star 6]",
@@ -1652,7 +1651,7 @@
             "BitS - Red Coins",
             "MISC - Bowser 3 Fight"
         ],
-        "No LBLJ, WDW100+Secrets, THI100+Koopa, RR No Carpetless":[
+        "No LBLJ, WDW100+Secrets, THI100+Koopa, RR No Carpetless": [
             "MISC - Lakitu Skip",
             "BoB - Behind Chain Chomp's Gate [Star 6]",
             "WF - Blast Away the Wall [Star 6]",
@@ -1760,7 +1759,7 @@
             "BitS - Red Coins",
             "MISC - Bowser 3 Fight"
         ],
-        "No LBLJ, WDW100+Secrets, THI100+Koopa, RR Carpetless":[
+        "No LBLJ, WDW100+Secrets, THI100+Koopa, RR Carpetless": [
             "MISC - Lakitu Skip",
             "BoB - Behind Chain Chomp's Gate [Star 6]",
             "WF - Blast Away the Wall [Star 6]",
@@ -3091,7 +3090,7 @@
             "MISC - Stair BLJs",
             "BitS - Stage",
             "MISC - Bowser 3 Fight"
-        ],        
+        ],
         "No LBLJ, BitDW Reds, SSL Pillarless, LLL TJWK": [
             "MISC - Lakitu Skip",
             "BoB - Behind Chain Chomp's Gate [Star 6]",
@@ -3198,5 +3197,4 @@
             "MISC - Bowser 3 Fight"
         ]
     }
-
 }

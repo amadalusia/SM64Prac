@@ -98,7 +98,7 @@ def course_roll(course_list, category, weight_list):
         elif user_response == 'm':
             break
         else:
-            print("Category / Route:")
+            print("Category [Route]:")
             if len(list(stage_json[category])) > 1:
                 print(Fore.YELLOW + category + " [" + route + "]")
             else:

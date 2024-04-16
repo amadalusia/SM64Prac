@@ -6,12 +6,26 @@ import random
 from patchedpick import pick
 from getch import getch, pause
 from colorama import init, Fore, Back, Style
+import stagedata
 #import ctypes
 #ctypes.windll.kernel32.SetConsoleTitleW("SM64 Practice Script")
 
 # Opens 'stage.json', which is used for the course master list, weighting, and routes.
-with open('stage.json', 'r') as sfile:
-    stage_json = json.load(sfile)
+# Uses internal database as a fallback and dumps it to file if not present.
+def load_stage_json():
+    path = 'stage.json'
+    try:
+        with open(path, 'r') as f:
+            stage_json = json.load(f)
+    except:
+        stage_json = json.loads(stagedata.json)
+        if not os.path.isfile(path):
+            try:
+                with open('stage.json', 'w') as f:
+                    f.write(json.dumps(stage_json, indent=4))
+            except:
+                pass
+    return stage_json
 
 # Clears text on Windows/Linux/MacOS.
 def clear():
@@ -113,6 +127,7 @@ misc_option = False
 
 while(1):
     clear()
+    stage_json = load_stage_json()
     option, index = pick(options, title, indicator='>>')
 
 # Checks if the selected option is one of the main categories, and then presents the different route choices (if they exist)

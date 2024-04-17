@@ -1,6 +1,6 @@
 # SM64 Practice Script
 
-![SM64Prac](https://i.imgur.com/90A65mj.gif)
+![SM64Prac](https://i.imgur.com/ZJEirG6.gif)
 
 ## Getting Started - Basic (.exe)
 (Windows) Download the latest .exe from Releases on the right sidebar, and then run it. If SmartScreen shows a warning about untrusted software, this can be ignored.

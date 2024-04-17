@@ -7,11 +7,11 @@ from patchedpick import pick
 from getch import getch, pause
 from colorama import init, Fore, Back, Style
 import stagedata
+#Using this for .exe releases to show a window title, thus left commented out.
 #import ctypes
 #ctypes.windll.kernel32.SetConsoleTitleW("SM64 Practice Script")
 
-# Opens 'stage.json', which is used for the course master list, weighting, and routes.
-# Uses internal database as a fallback and dumps it to file if not present.
+# Opens 'stage.json', which is used for the course master list, weighting, and routes. Uses internal database as a fallback and dumps it to file if not present.
 def load_stage_json():
     path = 'stage.json'
     try:
@@ -34,8 +34,7 @@ def clear():
     else:
         _ = os.system('clear')
 
-# This function causes the results to be sorted by the master list, rather than random. 'i' is the index number, for example lakitu skip would be 0.
-# TODO: Make this sort by chosen route rather than by the master list, and describe the bottom two blocks below that were written by Artemis.
+# This function causes the results to be sorted by the master list, rather than random. 'i' is the index number, for example lakitu skip would be 0. TODO: Make this sort by chosen route rather than by the master list, and describe the bottom two blocks below that were written by Artemis.
 def stage_order(course):
     try:
         i = list(stage_json["course-master-list"].keys()).index(course)
@@ -150,9 +149,8 @@ while(1):
 # Script routes modification tutorial section, pause is from imported getch library.
     if option == "Routes & Weighting Modification Info":
         print(Fore.CYAN + "Routes & Weighting Modification Info")
-        print(Fore.RED + "\nNOTE: This is currently not possible with the .exe, however nearly all star and route variations are included by default." + Fore.WHITE + "\n\nIn order to do this you will need to use the .py script (as outlined on the GitHub page).") 
-        print("\nTo create or edit routes, or change the default weighting, you will need to modify the '" + Fore.GREEN + "stage.json" + Style.RESET_ALL + "' file. This file can be easily opened and modified inside of Notepad or any other text editor.")
-        print("\nInside this file, you will find the '" + Fore.MAGENTA + "course-master-list" + Style.RESET_ALL + "', then the categories, with routes being nested inside. While making any changes, this exact formatting must be maintained in order for it to work. When making changes that involve swapping stars, you must use the " + Fore.BLUE + "EXACT" + Fore.WHITE + " star names from the '" + Fore.MAGENTA + "course-master-list" + Style.RESET_ALL + "'.")
+        print(Fore.WHITE + "\nTo create/edit routes or change the weighting, you will need to modify the '" + Fore.GREEN + "stage.json" + Style.RESET_ALL + "' file. This file can be easily opened and modified inside of Notepad or any other text editor.")
+        print("\nInside this file, you will find the '" + Fore.MAGENTA + "course-master-list" + Style.RESET_ALL + "', then the categories, with routes being nested inside. While making any changes, this exact formatting must be maintained in order for it to work. When making changes that involve swapping stars, you must use the " + Fore.RED + "EXACT" + Fore.WHITE + " star names from the '" + Fore.MAGENTA + "course-master-list" + Style.RESET_ALL + "'. If the file is formatted incorrectly, the program will default to an internal copy of the data (and generates a default .json if not present). Feel free to remove routes that you don't use, as it comes loaded with variations by default.")
         print("\nOnce you've finished making changes, save the '" + Fore.GREEN + "stage.json" + Style.RESET_ALL + "' file, and then relaunch the script.")
         print(Fore.YELLOW + "\nLIMITATION: Sorting of results isn't implemented fully. Results are only sorting based on the 'course-master-list', rather than the chosen route. That list is based on the normal 120 Star LBLJ route, so regardless of your route structure, it won't sort all the results in the intended order. You could also update the 'course-master-list' order alongside the route, but keep in mind that will effect all the categories. This is something I plan to fix, along with easier editing via .xlsx spreadsheets.")
         print("\nExample: 70 Star is always going to show HMC results before DDD, regardless of choosing HMC late route." + Style.RESET_ALL)
@@ -162,7 +160,7 @@ while(1):
 # Script about section, pause is from imported getch library.
     if option == "About":
         print(Fore.YELLOW + "SM64 Practice Script maintained by Kyman (@Kym4n)")
-        print(Fore.CYAN + "Current Version: 0.2.0-04-15-2024.")
+        print(Fore.CYAN + "Current Version: 0.2.0-04-16-2024.")
         print(Fore.GREEN + "0.2.0 Changelog (see GitHub for full history):")
         print(Fore.WHITE + "\n- (Temp) fix for latest Python 3.12 support, via windows-curses compatibility [wermi/edreamleo on GitHub]")
         print("- Ability to customize routes/weighting through the 'stage.json' file, see info menu choice for more details [Artemis]")
@@ -187,11 +185,11 @@ while(1):
 
 # Script Ideas / Roadmap:
 # -> Implement better ordering of results based on chosen route, rather than master list
-# -> More sane stage.json or .xlsx, where routes reference index stuff (this file does not need to be 3200 lines)
+# -> More sane stage.json or .xlsx, remove general duplication and normalize data
 # -> For 70 star, provide option for your choices from the pool of: toxic maze, wigglers red coins, pyramid puzzle (currently just providing all by default)
 # -> Condense route selections by providing sub menus
 # -> Ability to remember the last selected route if you go back to main menu and then back to same category via pick default_index, or have it just save the first one you chose and skip the menu after and then have some sort of reset all routes toggle on the main menu 
-# -> Implement menu glitch related stuff for each category, or at least have a sub menu that is just a full resource for it
+# -> Implement a full menu glitch resource, based on the category chosen
 # -> Auto roll every x mins i.e. a10 and you do 10 mins on each result
 # -> Implement presets for RTA vs consistency practice, goals given change base on selection
 # -> Implement scaling for users pbs, prompts to enter pb, goal star times balanced to your level, "estimated good practice under xx.xx 5x"

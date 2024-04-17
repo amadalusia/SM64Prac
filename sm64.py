@@ -163,7 +163,7 @@ while(1):
         print(Fore.CYAN + "Current Version: 0.2.0-04-16-2024.")
         print(Fore.GREEN + "0.2.0 Changelog (see GitHub for full history):")
         print(Fore.WHITE + "\n- (Temp) fix for latest Python 3.12 support, via windows-curses compatibility [wermi/edreamleo on GitHub]")
-        print("- Ability to customize routes/weighting through the 'stage.json' file, see info menu choice for more details [Artemis]")
+        print("- Ability to customize routes/weighting through the 'stage.json' file, see info menu choice for more details [Artemis/wermi]")
         print("- Will now display the route alongside the category in the roll result menu (unless 0/1 Star is chosen)")
         print("- Added a toggle for main and bowser stages only [Artemis]")
         print("- Added proper star names, with a notation for the main stage star number")

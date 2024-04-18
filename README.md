@@ -9,14 +9,14 @@ Otherwise, if you want to customize the script, or just cannot run .exes, you ca
 
 Download the latest Python version best suited for your OS here, if you don't currently have it installed: https://www.python.org/downloads/
 
-NOTE: The currently implemented hotfix for the pick library for Python 3.12 compatibility, causes the terminal cursor (at least in Windows) to always blink on every menu. If you find this annoying, simply just use Python 3.11.
+NOTE: The currently implemented hotfix for the pick library for Python 3.12 compatibility, causes the terminal cursor (at least in Windows) to always blink on every menu. If you find this annoying, simply just use Python 3.11. Do not use 3.10, and I believe colored output isn't working on Python versions prior to 3.8.
 
-Next, follow the instructions listed below for your OS. Keep in mind this is assuming that Python is installed in PATH.
+Next, follow the instructions listed below for your OS. Keep in mind this is assuming that Python is installed in PATH, and pip is installed.
 #### Windows:
 1. Open command prompt (cmd.exe)
 2. Enter this exact command: `py -m pip install colorama pick py-getch`
 3. Download the script via the .zip source code in releases (or cloning the repo), navigate to the folder it downloaded to, and run 'sm64.py'
-#### Linux (NOTE: I haven't tested 0.2.0, it should still work):
+#### Linux (tested on Ubuntu 20.04 with Python 3.8):
 1. Open your terminal
 2. Enter this exact command: `pip3 install colorama pick py-getch`
 3. Download the script via the .zip source code in releases (or cloning the repo), navigate to the folder it downloaded to
